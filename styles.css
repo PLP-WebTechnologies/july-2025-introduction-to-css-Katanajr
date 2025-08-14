@@ -1,0 +1,71 @@
+/* General Reset */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c09f9f;
+}
+
+/* Header */
+.header {
+    background-color: #141313;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-list li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Card Sections (Box Model demo) */
+.card {
+    background-color: rgb(184, 192, 170);
+    margin: 20px auto;       /* Outer space */
+    padding: 15px;           /* Inner space */
+    border: 2px solid #ccc;  /* Border */
+    width: 80%;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    text-align: block;
+}
+
+.highlight {
+    border-color: #1d1d1c;
+    background-color: #fff8e1;
+}
+
+/* Button styling */
+.styled-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border: none;
+    background-color: #089c7c;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.styled-btn:hover {
+    background-color: #45a049;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    background-color: #181717;
+    color: white;
+    padding: 3px;
+    margin-top: 300px;
+}
